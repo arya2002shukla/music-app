@@ -7,7 +7,6 @@ class XylophoneApp extends StatelessWidget {
   void playsound(soundnumber){
     final player = AudioCache();
     player.play('note$soundnumber.wav');
-
   }
   @override
   Widget build(BuildContext context) {
